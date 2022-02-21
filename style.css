@@ -9,29 +9,46 @@
   margin: 90px auto;
   border-radius: 15px;
   box-shadow: 5px -5px 10px #d1c4e9;
-  padding: auto;
-  display: ;
-  padding-bottom: 20px;
+  /* padding: 20px 20px */
 }
-.landingPage h1 {
-  font-weight: 20px;
-  margin: 80px 0px 50px 100px;
+.images {
+  margin: 10px 20px;
+}
+.page {
+  border-left: 1px solid black;
+  margin: 50px 10px 20px 70px;
+  display: flex;
+  height: 32vw;
+  justify-content: space-between;
 }
 
 .smartwatch {
-  float: left;
+  margin: 0px 10px 10px 20px;
+}
+.smartwatch h1 {
+  font-weight: 20px;
+  margin: 0px 0px 30px 0px;
+}
+.smartwatch img {
+  width: 20vw;
+  height: auto;
+  margin-right: 50px;
+}
+.smartwatch h3 {
+  margin-top: 50px;
+}
+.smartwatch p {
+  font-size: 12px;
 }
 .payment {
-  float: right;
-  margin-right: 50px;
-  margin-top: 0px;
+  margin: 0px 30px 10px 10px;
 }
 .total {
   background-color: cornsilk;
-  border-radius: 10px;
+  border-radius: 8px;
   /* border: none; */
   border: 1px solid cornsilk;
-  width: 500px auto;
+  width: 10vw auto;
   text-align: center;
   height: 50vh auto;
   box-shadow: -2px -2px 1px gray;
@@ -41,11 +58,12 @@ input[type="text"] {
   border: none;
   background-color: transparent;
   border-bottom: 2px solid goldenrod;
-  padding-bottom: 15px;
+  padding: 5px 0px 8px 0px;
   font-size: 15px;
   font-weight: 700;
-  margin: 20px 30px 5px 20px;
+  margin: 10px 30px 0px 0px;
   width: 20vw;
+  /* text-align: justify; */
 }
 
 .total h1 {
@@ -63,10 +81,10 @@ input[type="text"] {
 .paypal {
   border: 1px solid black;
   /* margin-top: px; */
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 10px 30px;
-  width: 21vw;
-  height: 20px;
+  width: 22vw;
+  height: 9px;
   margin: 5px;
   justify-content: flex-start;
 }
@@ -77,12 +95,12 @@ input[type="text"] {
   margin-top: 5px;
   width: 80px;
   margin-left: -30px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 .paypal img {
   width: 80px;
   float: right;
-  margin-top: -30px;
+  margin-top: -35px;
   margin-left: -100%;
 }
 .pay {
@@ -112,8 +130,6 @@ input[type="button"] {
   padding: 10px 20px;
   margin: 40px 20px 10px;
 }
-.date{
-  
+.date {
+  width: 100%;
 }
-
-
